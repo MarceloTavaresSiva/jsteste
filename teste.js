@@ -1,8 +1,7 @@
-const num = 1;
-
-function soma() {
-
-    document.write("Soma" + num);
-
-    return 0;
+function contar() {
+    for(cont = 1; cont <=10; cont++) {
+        document.writeln(cont + "<br />");
+    }
 }
+
+
